@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(213, 209, 209)!important;
+}
+.navbar{
+    width: 100%;
+    
+    background-color: black;
+     color: azure;
+    box-shadow: 3px 6px 6px rgb(107, 114, 116);
+    position:sticky !important;
+
+    
+
+}
+#navbar{
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 100;
+
+
+}
+
+.navbar-brand h3{
+color: aliceblue;
+margin-left: 10px;
+}
+.navbar-brand img{
+    width: 80px;
+    
+    margin-left: 25px;
+    border-radius: 100%;
+    }
+.navbar #btn1{
+    background-color: white !important;
+    border-radius: 40%;
+    color: rgb(19, 185, 177) !important;
+}
+.navbar ul{
+    margin-right: 60px;
+}
+ul .nav-item a{
+    color: white !important;
+    padding: 10px !important;
+    margin: 5px !important;
+}
+ul .nav-item a:hover{
+    background-color: aliceblue !important;
+    color: rgb(16, 14, 14) !important;
+    padding: 20px !important;
+    text-decoration: underline;
+}  
+
+
+#sign1{
+    border-radius: 30% !important;
+}
+.carousel-item img{
+   width: 100% !important;
+   height: 500px;
+
+}
+.carousel-caption{
+    
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+     margin-bottom: 200px;
+}
+#about{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+}
+#about img{
+    width: 95% !important;
+    padding-top: 10px;
+    margin-top: 25px;
+    border-radius: 25px;
+    margin-left: 20px !important;
+    
+}
+#p1{
+    font-size: 40px;
+}
+#about .btt1{
+    padding: 18px 10px;
+    width: 100%;
+    border-radius: 10px !important;
+    padding-left: 5px !important;
+    margin-left: 10px !important;
+    box-shadow: 2px 4px 6px rgb(98, 97, 95);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form1{
+    margin-top: 70px;
+    background-color: black;
+    color: aliceblue;
+    
+}
+input{
+    height: 60px !important;
+    
+    box-shadow: 3px 5px 7px rgb(245, 248, 249);
+    border-radius: 5px !important;
+
+}
+.form-group{
+    padding: 10px;
+}
+.form-group label{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#inputState{
+    height: 60px ;
+    box-shadow: 2px 5px 7px rgb(17, 146, 166);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#signin{
+    margin-top: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+
+footer .nav1{
+    list-style: none;
+    
+    
+}
+.nav1 
+{
+    padding-left: 30px !important;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+footer{
+    padding-top: 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: azure;
+    
+}
+footer .ul1{
+    padding-left: 30px !important;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+footer .ul2{
+    padding-left: 30px !important;
+    margin-left: 30px;
+    padding: 10px;
+    list-style: none;
+}
+
+
+
+    /*responsive*/
+
+    @media (max-width: 575px){
+        .carousel-caption {
+             position:absolute;
+            font-size: 10px;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+             margin: auto !important;
+            margin-bottom: 20px !important;
+        
+        }
+        .carousel-item img{
+            height: 250px !important;
+        }
+        
+        
+        
+        
+    }
+    
+   
+    @media (min-width: 576px) and (max-width: 767px){
+
+    }
+    
+   
+    @media (min-width: 768px) and (max-width: 991px) {
+
+    }
+      
+
+
+#cards{
+    margin-top: 10px;
+    
+
+}
+.card{
+     border: none !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     border-radius: 5% !important;
+     box-shadow: 3px 5px 7px rgb(187, 191, 193);
+}
+
+.card img{
+    width: 100% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
